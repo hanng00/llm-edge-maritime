@@ -36,7 +36,7 @@ RADAR CONTACT:
 What do you do?
 ```
 
-
+<img src="./viz/plots/scenario_sc001.png" alt="Tactical scenario visualization" width="600">
 
 *Example scenario: Unknown vessel (red) approaching on intercept course. No AIS, no lights. Own ship (green) must decide: continue, monitor, evade, alert, or abort.*
 
@@ -45,8 +45,8 @@ What do you do?
 A rule-based system handles clear cases: "if distance < 1nm and no AIS, evade." But rules fail on nuance:
 
 - Is 28 knots fast? For a cargo ship, yes. For a military patrol boat, normal.
-- "Low profile, no lights" — suspicious, or just a small fishing vessel?
-- Two contacts converging from opposite sides — coincidence or coordinated?
+- "Low profile, no lights" - suspicious, or just a small fishing vessel?
+- Two contacts converging from opposite sides - coincidence or coordinated?
 
 Rules encode thresholds. They don't reason about intent, context, or combinations of weak signals.
 
@@ -60,7 +60,7 @@ Large language models can reason about ambiguity. But GPT-4 runs on datacenter h
 
 ### Hypothesis
 
-A small LLM, fine-tuned on expert reasoning traces, can outperform rule-based systems on ambiguous maritime scenarios — while running on edge hardware.
+A small LLM, fine-tuned on expert reasoning traces, can outperform rule-based systems on ambiguous maritime scenarios - while running on edge hardware.
 
 ---
 
@@ -123,7 +123,7 @@ Rules achieve 36% full accuracy but fail on nuanced cases:
 | high         | **14.5%** ✗ |     | alert    | **22.2%** ✗ |
 
 
-**Calibration Error: 0.49** — High confidence outputs are wrong 64% of the time.
+**Calibration Error: 0.49** - High confidence outputs are wrong 64% of the time.
 
 Rules can't decide when to escalate (ALERT: 22%) or recognize subtle high-threat situations (HIGH: 14.5%).
 
@@ -151,9 +151,9 @@ Rules respond to signals (100% on `critical`). LLMs ignore input and output the 
 
 One epoch of LoRA fine-tuning (rank 4, 240 examples) improved accuracy by only +1.7%. Needs:
 
-- **More epochs** — 3-5 typical for meaningful learning
-- **Higher LoRA rank** — rank 4 may be too constrained
-- **More data** — 240 examples insufficient to break mode collapse
+- **More epochs** - 3-5 typical for meaningful learning
+- **Higher LoRA rank** - rank 4 may be too constrained
+- **More data** - 240 examples insufficient to break mode collapse
 
 ### 3. Hardware Constraints Are Real
 
@@ -175,10 +175,10 @@ Fine-tuning larger models requires:
 
 To beat the 36% rule baseline, production deployment would need:
 
-1. **Larger model** — Gemma 4 E4B or 7B class
-2. **More training** — 3+ epochs, higher LoRA rank (8-16)
-3. **More data** — 1000+ labeled scenarios
-4. **Quantization** — GGUF Q4 for edge deployment (~2GB)
+1. **Larger model** - Gemma 4 E4B or 7B class
+2. **More training** - 3+ epochs, higher LoRA rank (8-16)
+3. **More data** - 1000+ labeled scenarios
+4. **Quantization** - GGUF Q4 for edge deployment (~2GB)
 
 ### 5. Why We Stopped Here
 
@@ -190,7 +190,7 @@ Answer: **not yet**. Raw models show mode collapse, minimal fine-tuning doesn't 
 
 **Ready but not executed:**
 
-- `edge/deploy.py` — GGUF quantization + llama.cpp benchmarking
+- `edge/deploy.py` - GGUF quantization + llama.cpp benchmarking
 - Raspberry Pi 5 deployment scripts
 
 **When to proceed:**
@@ -204,23 +204,23 @@ Answer: **not yet**. Raw models show mode collapse, minimal fine-tuning doesn't 
 
 ### LoRA: Low-Rank Adaptation
 
-Hu et al. (2021) — Train ~0.1% of parameters by learning low-rank weight updates.
+Hu et al. (2021) - Train ~0.1% of parameters by learning low-rank weight updates.
 
 ### Outlines: Constrained Decoding
 
-Willard & Louf (2023) — Guarantee valid JSON output via grammar-constrained generation.
+Willard & Louf (2023) - Guarantee valid JSON output via grammar-constrained generation.
 
 ### HELM: Holistic Evaluation
 
-Liang et al. (2022) — Evaluate beyond accuracy: calibration, consistency, robustness.
+Liang et al. (2022) - Evaluate beyond accuracy: calibration, consistency, robustness.
 
 ### QLoRA: Quantized Fine-Tuning
 
-Dettmers et al. (2023) — Fine-tune 4-bit models on consumer GPUs.
+Dettmers et al. (2023) - Fine-tune 4-bit models on consumer GPUs.
 
 ### Orca 2: Reasoning Distillation
 
-Mitra et al. (2023) — Train small models on reasoning traces from larger models.
+Mitra et al. (2023) - Train small models on reasoning traces from larger models.
 
 ---
 
