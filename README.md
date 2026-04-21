@@ -2,6 +2,8 @@
 
 > Can a small LLM make tactical decisions on 7 watts?
 
+**4-hour hackathon POC** exploring whether fine-tuned small LLMs can outperform rule-based systems for autonomous maritime decision-making on edge hardware.
+
 ## Table of Contents
 
 - [The Problem](#the-problem)
@@ -33,6 +35,10 @@ RADAR CONTACT:
 
 What do you do?
 ```
+
+
+
+*Example scenario: Unknown vessel (red) approaching on intercept course. No AIS, no lights. Own ship (green) must decide: continue, monitor, evade, alert, or abort.*
 
 ### The Limits of Rules
 
@@ -117,7 +123,7 @@ Rules achieve 36% full accuracy but fail on nuanced cases:
 | high         | **14.5%** ✗ |     | alert    | **22.2%** ✗ |
 
 
-**Calibration Error: 0.49** — Rules are not just inaccurate, they're *confidently wrong*. High confidence outputs are wrong 64% of the time.
+**Calibration Error: 0.49** — High confidence outputs are wrong 64% of the time.
 
 Rules can't decide when to escalate (ALERT: 22%) or recognize subtle high-threat situations (HIGH: 14.5%).
 
@@ -176,11 +182,13 @@ To beat the 36% rule baseline, production deployment would need:
 
 ### 5. Why We Stopped Here
 
+**Time constraint**: 4-hour hackathon.
+
 This POC focused on the **hardest question first**: can a small LLM outperform rules on ambiguous scenarios?
 
-The answer so far is **no** — raw models show mode collapse, and minimal fine-tuning doesn't fix it. Quantizing and deploying a model that performs worse than rules would prove nothing.
+Answer: **not yet**. Raw models show mode collapse, minimal fine-tuning doesn't fix it. Quantizing and deploying a model that performs worse than rules proves nothing.
 
-**What's ready but not executed:**
+**Ready but not executed:**
 
 - `edge/deploy.py` — GGUF quantization + llama.cpp benchmarking
 - Raspberry Pi 5 deployment scripts
