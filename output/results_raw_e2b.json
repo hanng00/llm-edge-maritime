@@ -1,0 +1,1812 @@
+{
+  "model": "gemma-4-e2b-it",
+  "n_scenarios": 300,
+  "parse_errors": 0,
+  "accuracy": {
+    "threat": 0.25666666666666665,
+    "action": 0.37,
+    "full": 0.22666666666666666
+  },
+  "results": [
+    {
+      "id": "sc001",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc002",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc003",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc004",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc005",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc006",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc007",
+      "pred": "low/monitor",
+      "gt": "critical/alert",
+      "match": false
+    },
+    {
+      "id": "sc008",
+      "pred": "low/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "sc009",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc010",
+      "pred": "none/continue",
+      "gt": "low/continue",
+      "match": false
+    },
+    {
+      "id": "sc011",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc012",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc013",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc014",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc015",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc016",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc017",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc018",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc019",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc020",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc021",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc022",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc023",
+      "pred": "none/continue",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc024",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc025",
+      "pred": "none/continue",
+      "gt": "low/evade",
+      "match": false
+    },
+    {
+      "id": "sc026",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc027",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc028",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc029",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc030",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "ff575d61",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "524ba843",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "63ae0b8a",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "dabb4362",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "594824ea",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "8426891d",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "435a8c3b",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "de008d40",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "69086b6a",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "9f5d423b",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "999d1b18",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "e80117af",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "5c0ff634",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "3acaf473",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "fc88a9ac",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "70a3689c",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "954fc186",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "380d818b",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "4cb320a9",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "348f3147",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "319fd66a",
+      "pred": "low/monitor",
+      "gt": "medium/evade",
+      "match": false
+    },
+    {
+      "id": "a584ab13",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "fea20359",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "6370ff2e",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "b51cf21c",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "26c259fc",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "695950f1",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "c38cbef7",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "02b56bd3",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "e3c3e197",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "908f3054",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "dd180172",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "451ffa05",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "01fa79bb",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "c2e093a6",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "68419eac",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "e42b3ce9",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "64c72e2f",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "205e9543",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "7cca3dee",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "c04696f1",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "a8dd8284",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "fd7db0be",
+      "pred": "medium/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "d74c3cd5",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "d87e9557",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "b0ba6938",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "8469ee6d",
+      "pred": "medium/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "1b17bb08",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "7078c883",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "d62462b2",
+      "pred": "low/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "1129d7f1",
+      "pred": "medium/monitor",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "92ece7bc",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "35721439",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "8141d292",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "f75c3593",
+      "pred": "low/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "6e512600",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "883d47c8",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "916d6025",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "859772df",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "50f46629",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "f5ce6c50",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "1d18862f",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "c8c34fed",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "c754cae5",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "2d6c6a4f",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "a589f472",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "c7324a48",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "8ae6a671",
+      "pred": "none/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "fec7906b",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "19d49c02",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "1fd0f3cd",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "a1988c64",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "1629ab98",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "cb9334cc",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "2920ecd4",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "ed7ce0b9",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "863b701c",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "9914bc6a",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "db0f47a2",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "ad687d00",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "27785989",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "b72c5d0b",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "e3834b92",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "a0bc86d5",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "2bc8e991",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "88d5b05b",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "8ac22ea9",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "ffe512ac",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "0aaa26c2",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "c16c522c",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "b8e68ef1",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "9d17835b",
+      "pred": "medium/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "e908b6d5",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "358ba12f",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "dacc714f",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "58893997",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "970d7a53",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "a60c5a08",
+      "pred": "medium/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "36f97761",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "ac42f5d7",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc131",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc132",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc133",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc134",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc135",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc136",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc137",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc138",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc139",
+      "pred": "medium/monitor",
+      "gt": "medium/alert",
+      "match": false
+    },
+    {
+      "id": "sc140",
+      "pred": "low/monitor",
+      "gt": "low/continue",
+      "match": false
+    },
+    {
+      "id": "sc141",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc142",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc143",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc144",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc145",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc146",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc147",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc148",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc149",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc150",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc151",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc152",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc153",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc154",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc155",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc156",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc157",
+      "pred": "low/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc158",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc159",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc160",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc161",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc162",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc163",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc164",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc165",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc166",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc167",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc168",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc169",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc170",
+      "pred": "medium/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc171",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc172",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc173",
+      "pred": "medium/monitor",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "sc174",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc175",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc176",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc177",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc178",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc179",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc180",
+      "pred": "medium/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc181",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc182",
+      "pred": "low/monitor",
+      "gt": "medium/alert",
+      "match": false
+    },
+    {
+      "id": "sc183",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc184",
+      "pred": "low/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc185",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc186",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc187",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc188",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc189",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc190",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc191",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc192",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc193",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc194",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc195",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc196",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc197",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc198",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc199",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "sc200",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc201",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc202",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc203",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc204",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "sc205",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc206",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc207",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc208",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc209",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "sc210",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc211",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc212",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc213",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc214",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc215",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc216",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc217",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc218",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc219",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc220",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc221",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc222",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc223",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc224",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc225",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc226",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc227",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc228",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc229",
+      "pred": "medium/monitor",
+      "gt": "medium/alert",
+      "match": false
+    },
+    {
+      "id": "sc230",
+      "pred": "low/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "sc231",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc232",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc233",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc234",
+      "pred": "low/monitor",
+      "gt": "medium/alert",
+      "match": false
+    },
+    {
+      "id": "sc235",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc236",
+      "pred": "medium/monitor",
+      "gt": "medium/alert",
+      "match": false
+    },
+    {
+      "id": "sc237",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc238",
+      "pred": "medium/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc239",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc240",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc241",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "sc242",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc243",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc244",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc245",
+      "pred": "low/monitor",
+      "gt": "medium/alert",
+      "match": false
+    },
+    {
+      "id": "sc246",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc247",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc248",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc249",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc250",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc251",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc252",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc253",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc254",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc255",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc256",
+      "pred": "none/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "sc257",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc258",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc259",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc260",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc261",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc262",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc263",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc264",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc265",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc266",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc267",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "sc268",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc269",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc270",
+      "pred": "low/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc271",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc272",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc273",
+      "pred": "medium/monitor",
+      "gt": "medium/monitor",
+      "match": true
+    },
+    {
+      "id": "sc274",
+      "pred": "none/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "sc275",
+      "pred": "low/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc276",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc277",
+      "pred": "medium/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc278",
+      "pred": "none/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "sc279",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc280",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc281",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc282",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc283",
+      "pred": "none/continue",
+      "gt": "none/continue",
+      "match": true
+    },
+    {
+      "id": "sc284",
+      "pred": "medium/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc285",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc286",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc287",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc288",
+      "pred": "medium/monitor",
+      "gt": "medium/alert",
+      "match": false
+    },
+    {
+      "id": "sc289",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc290",
+      "pred": "low/monitor",
+      "gt": "critical/evade",
+      "match": false
+    },
+    {
+      "id": "sc291",
+      "pred": "low/continue",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc292",
+      "pred": "low/monitor",
+      "gt": "medium/monitor",
+      "match": false
+    },
+    {
+      "id": "sc293",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    },
+    {
+      "id": "sc294",
+      "pred": "medium/monitor",
+      "gt": "high/alert",
+      "match": false
+    },
+    {
+      "id": "sc295",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc296",
+      "pred": "low/monitor",
+      "gt": "high/evade",
+      "match": false
+    },
+    {
+      "id": "sc297",
+      "pred": "low/monitor",
+      "gt": "none/continue",
+      "match": false
+    },
+    {
+      "id": "sc298",
+      "pred": "none/continue",
+      "gt": "low/monitor",
+      "match": false
+    },
+    {
+      "id": "sc299",
+      "pred": "low/monitor",
+      "gt": "critical/abort",
+      "match": false
+    },
+    {
+      "id": "sc300",
+      "pred": "low/monitor",
+      "gt": "low/monitor",
+      "match": true
+    }
+  ]
+}

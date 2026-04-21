@@ -1,0 +1,33 @@
+[project]
+name = "llm-edge-maritime"
+version = "0.1.0"
+description = "Edge LLM for maritime situational awareness"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic",
+    "click",
+    "matplotlib",
+    "pydantic",
+    "rich",
+]
+
+[project.optional-dependencies]
+train = [
+    "torch",
+    "transformers",
+    "peft",
+    "datasets",
+    "bitsandbytes",
+]
+eval = [
+    "outlines",
+]
+edge = [
+    "llama-cpp-python",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+    "pytest",
+]
