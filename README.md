@@ -4,6 +4,12 @@
 
 **4-hour hackathon POC** exploring whether fine-tuned small LLMs can outperform rule-based systems for autonomous maritime decision-making on edge hardware.
 
+<p align="center">
+  <img src="./viz/plots/scenario_sc001.png" alt="Scenario 1" width="32%">
+  <img src="./viz/plots/scenario_sc003.png" alt="Scenario 2" width="32%">
+  <img src="./viz/plots/scenario_sc005.png" alt="Scenario 3" width="32%">
+</p>
+
 ## Table of Contents
 
 - [The Problem](#the-problem)
@@ -89,8 +95,38 @@ A small LLM, fine-tuned on expert reasoning traces, can outperform rule-based sy
 
 ### Dataset
 
-**300 scenarios** labeled by `claude-opus-4-5-20251101` as teacher model.
+**300 synthetic scenarios** labeled by Claude Opus (`claude-opus-4-5-20251101`) as teacher model.
 
+Each scenario includes sensor data (contacts, bearings, speeds, AIS status) and environmental context (weather, visibility, comms). Claude provides the decision with reasoning trace.
+
+<img src="./viz/plots/scenario_sc003.png" alt="Training data example" width="500">
+
+**Example training sample:**
+
+```json
+{
+  "scenario": {
+    "id": "sc003",
+    "mission_type": "transit",
+    "own_heading": 315, "own_speed": 22,
+    "vessels": [{
+      "bearing": 315, "distance": 1.2, "speed": 32,
+      "vessel_type": "military", "ais_active": false,
+      "visual_description": "grey hull, radar arrays"
+    }],
+    "weather": "rough", "visibility": "moderate",
+    "time_of_day": "dawn", "comms_status": "degraded"
+  },
+  "decision": {
+    "threat_level": "critical",
+    "action": "abort",
+    "reasoning": "Military vessel on direct collision course at high speed, 
+                  no AIS, degraded comms. Cannot verify friendly status. 
+                  Mission abort required for survival.",
+    "confidence": 0.92
+  }
+}
+```
 
 | Attribute     | Distribution                                             |
 | ------------- | -------------------------------------------------------- |
